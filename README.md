@@ -10,6 +10,30 @@
    conda activate Utagger
  ```
 
+# [Install CUDA]
+ * Reference: https://gist.github.com/zhanwenchen/e520767a409325d9961072f666815bb8
+ * Setup CUDA 9.0
+```
+    cd $HOME
+    mkdir cuda_installer
+    wget https://developer.nvidia.com/compute/cuda/9.0/Prod/local_installers/cuda_9.0.176_384.81_linux-run
+    chmod +x cuda_9.0.176_384.81_linux-run
+    ./cuda_9.0.176_384.81_linux-run --extract=$HOME/cuda_installer
+    sudo ./cuda-linux.9.0.176-22781540.run
+    
+```
+ * Setup CuDNN
+```    
+    Dowonload CuDnn package from https://developer.nvidia.com/rdp/cudnn-download
+    sftp $SERVERHOST
+    put cudnn-9.0-linux-x64-v7.tgz
+    exit
+    
+    cd /usr/local
+    sudo tar -xvzf cudnn-9.0-linux-x64-v7.tgz
+```
+
+
 # [Install Pytorch]
 
 ### Cuda version check!! :
