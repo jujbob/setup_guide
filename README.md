@@ -52,14 +52,13 @@ conda install pytorch=0.4.0 -c soumith
 pip install -r requirements.txt
 
 ## Install individual python packages
-pip install -r requirements.txt
 conda install ftfy
 
 
 # [Install git and clone source codes]
 
 ## Install github package
-pip install git
+apt-get install git
 ## Clone the source using git
 git clone https://naacl@bitbucket.org/naacl/tagger.git
 
