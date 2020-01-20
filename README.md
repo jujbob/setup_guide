@@ -42,6 +42,9 @@ nvcc --version
 ### An example of installing pytorch with CUDA 9.1
 conda install pytorch=0.4.0 cuda91 -c soumith
 
+### An example of installing pytorch with CUDA 9.0
+conda install pytorch torchvision cudatoolkit=9.0 -c pytorch
+
 ### Pytorch without CUDA
 conda install pytorch=0.4.0 -c soumith
 
