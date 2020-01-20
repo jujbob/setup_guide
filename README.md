@@ -116,3 +116,9 @@ env NAME=VALUE
 *declare: 이는 쉘 변수의 타입을 지정하는 명령입니다. https://wiki.kldp.org/HOWTO/html/Adv-Bash-Scr-HOWTO/declareref.html
 
 읽기전용, 정수, 배열, 함수 등으로 쉘 변수의 성격을 선언할 때 사용합니다.
+
+
+# [Ubuntu Users]
+$ cat /etc/passwd
+$ useradd 계정명 -m -s /bin/bash
+$ passwd 계정명
