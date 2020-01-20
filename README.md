@@ -124,5 +124,5 @@ env NAME=VALUE
 
 # [Ubuntu Users]
 $ cat /etc/passwd
-$ useradd 계정명 -m -s /bin/bash
+$ useradd 계정명 -m -d /home/ktlim -s /bin/bash
 $ passwd 계정명
