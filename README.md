@@ -12,6 +12,7 @@
 
 # [Install CUDA]
  * Reference: https://gist.github.com/zhanwenchen/e520767a409325d9961072f666815bb8
+ * You should have to chcek the version of nvidia driver and cuda at the same time: https://docs.nvidia.com/deploy/cuda-compatibility/index.html
  * Setup CUDA 9.0
 ```
     cd $HOME
