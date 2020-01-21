@@ -15,14 +15,14 @@
  * You should have to chcek the version of nvidia driver and cuda at the same time: https://docs.nvidia.com/deploy/cuda-compatibility/index.html
   * Setup CUDA 10.0 (Download a cuda seup file: https://developer.nvidia.com/cuda-toolkit-archive)
 ```
-
+    wget https://developer.nvidia.com/compute/cuda/10.0/Prod/local_installers/cuda_10.0.130_410.48_linux
     sudo sh cuda_10.0.130.410.48_linux.run --override
     cd ~
     sudo vi ~/.bashrc
     export CUDA_HOME=/usr/local/cuda-10.0
     export PATH=/usr/local/cuda-10.0/bin${PATH:+:${PATH}}
     export LD_LIBRARY_PATH=/usr/local/cuda-10.0/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
-    
+    source ~/.bashrc
 ```
  
  * Setup CUDA 9.0
