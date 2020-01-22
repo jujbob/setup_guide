@@ -1,6 +1,6 @@
 # [Install Anaconda]
 
-## MacOS, Linux
+## MacOS, Linux: Anaconda Setup
  ```
    wget https://repo.anaconda.com/archive/Anaconda3-5.2.0-Linux-x86_64.sh
    sh Anaconda3-5.2.0-Linux-x86_64.sh
@@ -8,6 +8,19 @@
    conda search python
    conda create -n Utagger python=3.6 anaconda
    conda activate Utagger
+ ```
+ ## MacOS, Linux: Create a virtual envirnment
+ ```
+   conda create -n Utagger python=3.6 anaconda
+   conda activate Utagger
+   which python #check the location of its default python
+   conda list #check packaged installed
+ ```
+ 
+ ## MacOS, Linux: Remove a virtual envirnment
+ ```
+   conda env list #check env lists
+   conda env remove -n Utagger
  ```
 
 # [Install CUDA]
