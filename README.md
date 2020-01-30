@@ -106,9 +106,12 @@ CUDA_VISIBLE_DEVICES=2,3 python test3.py  # Uses GPUs 2 and 3.
   os.environ["CUDA_DEVICE_ORDER"]="PCI_BUS_ID"   
   os.environ["CUDA_VISIBLE_DEVICES"]="0"
  ```
-
-# [Jupyter notebook setup]
-https://surpassing.tistory.com/824
+ 
+## Install a conda package in the current Jupyter kernel
+ ```
+  import sys
+  !conda install --yes --prefix {sys.prefix} simplejson
+ ```
 
 
 # [bashes and env in Ubuntu]
