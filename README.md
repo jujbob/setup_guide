@@ -162,3 +162,9 @@ env NAME=VALUE
 $ cat /etc/passwd
 $ useradd 계정명 -m -d /home/ktlim -s /bin/bash
 $ passwd 계정명
+
+# [Ubuntu DISK mount]
+$ chown -R [계정] /media/ktlim/
+$ chmod +w /media/ktlim/
+$ ls -all /media/
+$ https://loveindeed.tistory.com/42
