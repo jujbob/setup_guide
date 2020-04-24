@@ -118,7 +118,10 @@ CUDA_VISIBLE_DEVICES=2,3 python test3.py  # Uses GPUs 2 and 3.
   import sys
   !{sys.executable} -m pip install wordcloud
  ```
-
+## Jupyer notebook 외부접근
+```
+ https://surpassing.tistory.com/824
+```
 
 # [bashes and env in Ubuntu]
 Bash는 쉘과 스크립트 언어의 성격을 모두 가지고 있습니다. 스크립트로 사용할 때, 쉘 프로그래밍 혹은 쉘 스크립팅이라고 합니다. 프로그래밍 요소가 있기 때문에 위와 같이 변수를 관리하는 명령이 있습니다. 환경 변수와 쉘 변수는 다른 데, 다른 언어에서는 쉽게 구분이 가능한 반면에, 쉘 프로그래밍을 하다 보면 이 두 가지의 사용 용법이 비슷하여 동일한 것으로 오해할 수 있습니다.
