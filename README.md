@@ -2,8 +2,8 @@
 
 ## MacOS, Linux: Anaconda Setup
  ```
-   wget https://repo.anaconda.com/archive/Anaconda3-5.2.0-Linux-x86_64.sh
-   sh Anaconda3-5.2.0-Linux-x86_64.sh
+   wget https://repo.anaconda.com/archive/Anaconda3-2020.11-Linux-x86_64.sh
+   sh Anaconda3-2020.11-Linux-x86_64.sh
 
    conda search python
    conda create -n Utagger python=3.6 anaconda
