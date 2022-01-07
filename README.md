@@ -171,3 +171,11 @@ $ chown -R [계정] /media/ktlim/
 $ chmod +w /media/ktlim/
 $ ls -all /media/
 $ https://loveindeed.tistory.com/42
+
+
+# [Docker Commands]
+$ docker attach [namne]
+$ FROM THE CONTAINER CRT+P+Q ==> exit without termination
+
+$ REF
+$ https://watch-n-learn.tistory.com/28
