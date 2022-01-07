@@ -177,5 +177,8 @@ $ https://loveindeed.tistory.com/42
 $ docker attach [namne]
 $ FROM THE CONTAINER CRT+P+Q ==> exit without termination
 
-$ REF
-$ https://watch-n-learn.tistory.com/28
+$ REF https://watch-n-learn.tistory.com/28
+
+$ docker tag <container이름:버전명> <계정/container이름:버전>
+$ docker tag ubuntu-jupyter:base jujbob/ubuntu-jupyter:base 
+$ REF https://m.blog.naver.com/babobigi/222162310395
