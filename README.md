@@ -175,6 +175,8 @@ $ https://loveindeed.tistory.com/42
 
 # [Docker Commands]
 
+ * Docker shall script
+```
 uname -a
 date
 
@@ -184,7 +186,8 @@ IMAGE=jujbob/ubuntu-jupyter:base
 GPU_IDS="2,3"
 
 NV_GPU=${GPU_IDS} nvidia-docker run -it --rm -p 8812:8812 -v ${WORKSPACE}:/workspace/ --shm-size 50G --name ${NAME} ${IMAGE} bash
-
+ * Setup CUDA 9.0
+```
 sh ktlim_docker_execute_HBNU_CE_AI_23.sh 
 
 $ docker ps -a
