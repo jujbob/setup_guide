@@ -174,11 +174,26 @@ $ https://loveindeed.tistory.com/42
 
 
 # [Docker Commands]
-$ docker attach [namne]
+
+uname -a
+date
+
+WORKSPACE=/home/aailab
+NAME=ktlim
+IMAGE=jujbob/ubuntu-jupyter:base
+GPU_IDS="2,3"
+
+NV_GPU=${GPU_IDS} nvidia-docker run -it --rm -p 8812:8812 -v ${WORKSPACE}:/workspace/ --shm-size 50G --name ${NAME} ${IMAGE} bash
+
+sh ktlim_docker_execute_HBNU_CE_AI_23.sh 
+
+$ docker ps -a
+$ docker attach [name]
 $ FROM THE CONTAINER CRT+P+Q ==> exit without termination
 
 $ REF https://watch-n-learn.tistory.com/28
 
+$ docker 
 $ docker tag <container이름:버전명> <계정/container이름:버전>
 $ docker tag ubuntu-jupyter:base jujbob/ubuntu-jupyter:base 
 $ REF https://m.blog.naver.com/babobigi/222162310395
